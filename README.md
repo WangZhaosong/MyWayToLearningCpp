@@ -2,3 +2,5 @@
 Some example when learning C++
 
 *noncopyable.hpp* - A class that can not be copied or assigned
+
+*Instructment4.cpp* - Pure virtual function
