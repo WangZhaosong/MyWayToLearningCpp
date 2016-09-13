@@ -6,12 +6,12 @@ class One {
 
 class Two {
     public:
-        Two(const One&) {}
+        Two(const One&) {} // Better use explicit
 };
 
 void f(Two) {}
 
 int main() {
     One one;
-    f(one); // Wants a Two, has a One
+    f(one); // Wants a Two, has a One; not advised
 }
