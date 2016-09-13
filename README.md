@@ -10,3 +10,5 @@ Some example when learning C++
 *AutomaticTypeConversion.cpp* - Automatic type conversion
 
 *ExplicitKeyword.cpp* - Explicit type conversion
+
+*Strings1.cpp, Strings2.cpp* - User defined conversion
